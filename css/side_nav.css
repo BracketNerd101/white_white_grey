@@ -14,6 +14,9 @@
 .side_nav_text a {
   font-size: 2rem; }
 
+.sidenav .closebtn a:hover {
+  background-color: #f2f2f2; }
+
 /* The navigation menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -28,6 +31,9 @@
 .sidenav a:hover {
   color: #f2f2f2;
   background-color: #1477D7; }
+  .sidenav a:hover .closebtn a:hover {
+    color: #333333;
+    background-color: #f2f2f2; }
 
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
@@ -36,6 +42,10 @@
   right: 25px;
   font-size: 36px;
   margin-left: 50px; }
+
+.sidenav .closebtn:hover {
+  color: #767676;
+  background-color: #f2f2f2; }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
