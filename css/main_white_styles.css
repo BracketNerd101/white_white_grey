@@ -1,8 +1,13 @@
 body {
-  padding-top: 330px; }
+  padding-top: 330px;
+  min-height: 3200px; }
 
 .section_spacing {
   height: 12rem; }
+
+.first_section {
+  padding-top: 18rem;
+  height: inherit; }
 
 .sub_header_spacing {
   margin-top: 3rem;
