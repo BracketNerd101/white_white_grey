@@ -11,6 +11,8 @@ body {
 
 .blue_header_style {
   background-color: #ADD8E6; }
+  .blue_header_style .top_spacing_banner_body {
+    margin-top: 7rem; }
 
 .header_minor_space {
   margin-bottom: 3rem;
@@ -71,5 +73,13 @@ body {
 
 .footer_styles {
   margin-top: 5rem; }
+  .footer_styles .footer_second_level {
+    width: 100%; }
+
+.footer_styles_list {
+  margin-top: 0.9rem;
+  list-style: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000000; }
 
 /*# sourceMappingURL=main_white_styles.css.map */
