@@ -2,7 +2,19 @@ body {
   min-height: 1200px; }
 
 .jumbotron {
-  margin-bottom: 0 !important; }
+  margin-bottom: 0 !important;
+  background-color: none; }
+
+.jumbotron-fluid {
+  margin-bottom: 0 !important;
+  background-color: none; }
+
+.blue_header_style {
+  background-color: #ADD8E6; }
+
+.header_minor_space {
+  margin-bottom: 3rem;
+  font-family: 'Source Sans Pro', sans-serif; }
 
 .section_spacing {
   height: 12rem; }
@@ -10,6 +22,11 @@ body {
 .first_section {
   margin-top: 10rem;
   margin-bottom: 10rem;
+  height: inherit; }
+
+.first_section_nut {
+  padding-top: 4rem;
+  padding-bottom: 8rem;
   height: inherit; }
 
 .sub_header_spacing {
@@ -23,5 +40,36 @@ body {
     padding-bottom: 7rem; }
   .banner_flag .top_spacing {
     padding-top: 7rem; }
+
+.img_class_name {
+  background-image: url(../img/healthy_food.jpg);
+  background-size: cover;
+  height: 25rem;
+  width: auto; }
+
+.img_class_paper {
+  background-image: url(../img/green_smoothy.jpg);
+  background-size: cover;
+  height: 25rem;
+  width: auto; }
+
+.img_class_name_blog_yoga {
+  background-image: url(../img/yoga_matt.jpg);
+  background-size: cover;
+  height: 25rem;
+  width: auto; }
+
+.img_class_name_volunteer {
+  background-image: url(../img/community_selfie.jpg);
+  background-size: cover;
+  height: 25rem;
+  width: auto; }
+
+.footer_height_style {
+  padding-top: 10rem;
+  padding-bottom: 10rem; }
+
+.footer_styles {
+  margin-top: 5rem; }
 
 /*# sourceMappingURL=main_white_styles.css.map */

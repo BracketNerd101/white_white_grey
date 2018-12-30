@@ -10,6 +10,7 @@
     <!--  -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!--  -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100|Playfair+Display|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="css/main_white_styles.css">
     <link rel="stylesheet" href="scss/main_white_styles.scss">
     <link rel="stylesheet" href="scss/side_nav.scss">
@@ -18,11 +19,12 @@
     <title>Blue</title>
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid bg-white">
+    <div class="jumbotron jumbotron-fluid blue_header_style ">
       <div class="container">
         <div class="col-lg-5 banner_flag">
-          <h1 class="display-4 text-light top_spacing">Fountain of Blue</h1>
-          <p class="lead text-light bottom_spacing">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 class="display-4 text-white top_spacing">Fountain of Blue</h1>
+          <p class="lead text-white bottom_spacing">This is a modified jumbotron that occupies the entire horizontal space of its parent.
+          </p>
         </div>
       </div>
   </div>
@@ -42,16 +44,19 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 text-center side_nav_text">
-        <a href="#">About</a>
+        <a href="#">Helpful Links</a>
       </div>
+      <hr class="bg-dark">
       <div class="col-lg-12 col-md-12 col-sm-12 text-center side_nav_text">
-        <a href="#">Services</a>
+        <a href="#">Compare Health Plans</a>
       </div>
+      <hr class="bg-dark">
       <div class="col-lg-12 col-md-12 col-sm-12 text-center side_nav_text">
-        <a href="#">Clients</a>
+        <a href="#">Member Resources</a>
       </div>
+      <hr class="bg-dark">
       <div class="col-lg-12 col-md-12 col-sm-12 text-center side_nav_text">
-        <a href="#">Contact</a>
+        <a href="#">Help Desk</a>
       </div>
       <!-- <a href="#">About</a>
       <a href="#">Services</a>
@@ -65,37 +70,44 @@
       <div class="container-fluid">
         <div class="row">
           <div class="container col-lg-12">
-            <h2>Lorem ipsum dolor sit.</h2>
+            <h2 class="header_minor_space">Lorem ipsum dolor sit.</h2>
           </div>
           <div class="row col-lg-8">
             <div class="col-lg-4 col-md-4 col-sm-12">
-              <h4>Individuals & Families.</h4>
+              <h4 class="header_minor_space">Individuals & Families.</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-              <button type="button" class="btn btn-lg btn-light">Light</button>
+              <button type="button" class="btn btn-lg btn-primary rounded-0">Light</button>
 
             </div><!-- -->
           <div class="col-lg-4 col-md-4 col-sm-12">
-            <h4>Medicare</h4>
+            <h4 class="header_minor_space">Medicare</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            <button type="button" class="btn btn-lg btn-light">Light</button>
+            <button type="button" class="btn btn-lg btn-primary rounded-0">Light</button>
 
           </div><!-- -->
           <div class="col-lg-4 col-md-4 col-sm-12">
-            <h4>Lorem ipsum dolor.</h4>
+            <h4 class="header_minor_space">Business</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            <button type="button" class="btn btn-lg btn-light">Light</button>
+            <button type="button" class="btn btn-lg btn-primary rounded-0">Light</button>
 
           </div><!-- -->
           </div>
           <div class="col-lg-4">
             <h4>Business</h4>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Porta ac consectetur ac</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
           </div>
 
         </div>
@@ -106,19 +118,35 @@
 
 
     <!-- company -->
-    <Section class="first_section">
-      <div class="container-fluid">
+    <Section class="first_section bg-light">
+      <div class="container first_section_nut">
         <div class="col-lg-12">
-          <h2 class="text-center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing.
+          <h2 class="text-center text-dark header_minor_space nut_header">
+            More options means more control of your health.
           </h2>
         </div>
         <div class="row">
           <div class="col-lg-6">
+            <div class="card shadow-lg p-3 mb-5 bg-white rounded-0">
+              <img class="card-img-top img_class_paper">
+              <div class="card-body">
+                <h5 class="card-title">Nutrition Tips</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary rounded-0 float-right">Learn The Tips</a>
+              </div>
+            </div>
 
 
           </div>
           <div class="col-lg-6">
+            <div class="card shadow-lg p-3 mb-5 bg-white rounded-0">
+            <img class="card-img-top img_class_name">
+            <div class="card-body">
+              <h5 class="card-title">Healthy Meal Options</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary rounded-0 float-right">Check It Out</a>
+            </div>
+          </div>
 
 
           </div>
@@ -132,16 +160,18 @@
     <!-- community -->
 
     <Section class="first_section">
-      <div class="container-fluid">
+      <div class="container">
         <div class="col-lg-12">
-          <h2 class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
+          <h2 class="text-center header_minor_space">
+            Healthy Social and Active Lifestyle
+          </h2>
         </div>
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 img_class_name_blog_yoga">
 
 
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 img_class_name_volunteer">
 
 
           </div>
@@ -153,14 +183,31 @@
     <!-- 2 groups -->
 
     <!--copyright -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <p class="text-dark">
+            Our Medicare Supplement insurance policies are not connected with or endorsed by the U.S. Government or the Federal Medicare Program. These policies have limitations and exclusions. <br>
+
+            Florida Blue is a trade name of Blue Cross and Blue Shield of Florida, Inc., an Independent Licensee of the Blue Cross and Blue Shield Association. <br>
+
+            Florida Blue is a PPO,RPPO and Rx (PDP) Plan with a Medicare contract. Florida Blue HMO, Florida Blue Preferred HMO, are HMO plans with a Medicare contract. Enrollment in Florida Blue, Florida Blue HMO, or Florida Blue Preferred HMO depends on contract renewal. <br>
+
+            FB HM F 102016B
+
+            Y0011_34058 0917 CMS Accepted
+          </p>
+        </div>
+      </div>
+    </div>
 
 
     <!-- footer -->
 
 
-    <Section class="first_section">
+    <Section class="footer_styles bg-light">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row footer_height_style">
           <div class="col-lg-3 col-md-3 col-sm-12">
             <ul>
               <li>Lorem ipsum dolor sit.</li>
