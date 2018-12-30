@@ -1,15 +1,27 @@
 body {
   min-height: 1200px; }
 
+.jumbotron {
+  margin-bottom: 0 !important; }
+
 .section_spacing {
   height: 12rem; }
 
 .first_section {
-  margin-top: 3rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   height: inherit; }
 
 .sub_header_spacing {
   margin-top: 3rem;
   margin-bottom: 3rem; }
+
+.banner_flag {
+  background-color: #333333;
+  height: 25rem; }
+  .banner_flag .bottom_spacing {
+    padding-bottom: 7rem; }
+  .banner_flag .top_spacing {
+    padding-top: 7rem; }
 
 /*# sourceMappingURL=main_white_styles.css.map */

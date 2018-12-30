@@ -10,7 +10,13 @@ body {
 
 .hero_section_style {
 
-  
+
+}
+
+.jumbotron {
+
+  margin-bottom: 0 !important;
+
 }
 
 
@@ -22,7 +28,8 @@ body {
 
 .first_section {
 
-  margin-top: 3rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   height: inherit;
 }
 
@@ -30,6 +37,20 @@ body {
 
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.banner_flag {
+
+  background-color: #333333;
+  height: 25rem;
+
+  .bottom_spacing {
+    padding-bottom: 7rem;
+  }
+
+  .top_spacing {
+    padding-top: 7rem;
+  }
 }
 
 
