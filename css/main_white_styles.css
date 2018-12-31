@@ -9,8 +9,19 @@ body {
   margin-bottom: 0 !important;
   background-color: none; }
 
+.active_family {
+  background-image: url(../img/active_senor.png);
+  background-size: cover;
+  height: 45rem;
+  width: auto; }
+
+.live_life_body {
+  margin-top: 7rem;
+  font-size: 12rem; }
+
 .blue_header_style {
-  background-color: #ADD8E6; }
+  background-image: url(../img/community_selfie.jpg);
+  background-size: cover; }
   .blue_header_style .top_spacing_banner_body {
     margin-top: 7rem; }
 
@@ -36,7 +47,7 @@ body {
   margin-bottom: 3rem; }
 
 .banner_flag {
-  background-color: #333333;
+  background-color: rgba(250, 250, 250, 0.7);
   height: 25rem; }
   .banner_flag .bottom_spacing {
     padding-bottom: 7rem; }
