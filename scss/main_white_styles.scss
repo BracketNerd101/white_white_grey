@@ -31,7 +31,7 @@ body {
 
   background-image: url(../img/active_senor.png);
   background-size: cover;
-  height: 45rem;
+  height: inherit;
   width: auto;
 
 
@@ -39,18 +39,29 @@ body {
 
 .live_life_body {
   margin-top: 7rem;
-  font-size: 12rem;
+  font-size: 7rem;
 }
 
 .blue_header_style {
-
 
 background-image: url(../img/community_selfie.jpg);
 background-size: cover;
 
 .top_spacing_banner_body {
   margin-top: 7rem;
+
+
+  }
+
 }
+
+.iphone_img_style {
+
+ background-image: url(../img/iphone.png);
+ background-size: cover;
+ height: 45rem;
+ width: auto;
+
 
 }
 
@@ -128,7 +139,7 @@ background-size: cover;
   background-image: url(../img/yoga_matt.jpg);
   background-size: cover;
   height: 25rem;
-  width: auto;
+  width: 100%;
 
 
 }
@@ -138,7 +149,8 @@ background-size: cover;
   background-image: url(../img/community_selfie.jpg);
   background-size: cover;
   height: 25rem;
-  width: auto;
+  width: 100%;
+
 
 }
 

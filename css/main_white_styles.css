@@ -12,18 +12,24 @@ body {
 .active_family {
   background-image: url(../img/active_senor.png);
   background-size: cover;
-  height: 45rem;
+  height: inherit;
   width: auto; }
 
 .live_life_body {
   margin-top: 7rem;
-  font-size: 12rem; }
+  font-size: 7rem; }
 
 .blue_header_style {
   background-image: url(../img/community_selfie.jpg);
   background-size: cover; }
   .blue_header_style .top_spacing_banner_body {
     margin-top: 7rem; }
+
+.iphone_img_style {
+  background-image: url(../img/iphone.png);
+  background-size: cover;
+  height: 45rem;
+  width: auto; }
 
 .header_minor_space {
   margin-bottom: 3rem;
@@ -70,13 +76,13 @@ body {
   background-image: url(../img/yoga_matt.jpg);
   background-size: cover;
   height: 25rem;
-  width: auto; }
+  width: 100%; }
 
 .img_class_name_volunteer {
   background-image: url(../img/community_selfie.jpg);
   background-size: cover;
   height: 25rem;
-  width: auto; }
+  width: 100%; }
 
 .footer_height_style {
   padding-top: 10rem;
