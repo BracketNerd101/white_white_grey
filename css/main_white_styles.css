@@ -15,12 +15,21 @@ body {
   height: inherit;
   width: auto; }
 
+.slider_space_style {
+  margin-top: 5rem; }
+
+.slider_img3 {
+  background-image: url(../img/active_senor.png);
+  background-size: cover;
+  height: 30rem;
+  width: auto; }
+
 .live_life_body {
   margin-top: 7rem;
   font-size: 7rem; }
 
 .blue_header_style {
-  background-image: url(../img/community_selfie.jpg);
+  background-image: url(../img/family_one.jpg);
   background-size: cover; }
   .blue_header_style .top_spacing_banner_body {
     margin-top: 7rem; }
