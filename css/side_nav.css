@@ -16,7 +16,8 @@
 
 .side_nav_text a {
   font-size: 2rem;
-  margin-top: 1.2rem; }
+  margin-top: 1.2rem;
+  font-family: 'Montserrat', sans-serif; }
 
 .sidenav .closebtn a:hover {
   background-color: #f2f2f2; }
