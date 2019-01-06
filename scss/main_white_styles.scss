@@ -2,7 +2,7 @@
 body {
 
   min-height: 1200px;
-
+  scroll-behavior: smooth;
 }
 
 
@@ -27,6 +27,11 @@ body {
 
 }
 
+.small_style_margin {
+
+  margin-top: 3rem;
+}
+
 .active_family {
 
   background-image: url(../img/active_senor.png);
@@ -34,6 +39,12 @@ body {
   height: inherit;
   width: auto;
 
+
+}
+
+.Blue_nav_style {
+
+  font-family: 'Playfair Display', serif;
 
 }
 
@@ -60,6 +71,7 @@ body {
 .blue_header_style {
 
 background-image: url(../img/family_one.jpg);
+height: 40rem;
 background-size: cover;
 
 .top_spacing_banner_body {
@@ -83,7 +95,7 @@ background-size: cover;
 .header_minor_space {
 
   margin-bottom: 3rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .section_spacing {
@@ -116,8 +128,15 @@ background-size: cover;
 
 .banner_flag {
 
-  background-color: rgba(250,250,250, 0.7) ;
+  background-color: rgba(58,144,224, 0.8) ;
   height: 25rem;
+
+  .blue_hero_text_style {
+
+    font-family: 'Playfair Display', serif;
+
+
+  }
 
   .bottom_spacing {
     padding-bottom: 7rem;

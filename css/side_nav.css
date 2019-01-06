@@ -15,7 +15,8 @@
   transition: 0.5s; }
 
 .side_nav_text a {
-  font-size: 2rem; }
+  font-size: 2rem;
+  margin-top: 1.2rem; }
 
 .sidenav .closebtn a:hover {
   background-color: #f2f2f2; }
