@@ -1,55 +1,129 @@
-/*
-Error: Invalid CSS after "...oga_health.png)": expected "{", was ";"
-        on line 74 of scss/main_white_styles.scss
+body {
+  min-height: 1200px;
+  scroll-behavior: smooth; }
 
-69: }
-70: 
-71: .blue_header_style {
-72: 
-73: <<<<<<< HEAD
-74: background-image: url(../img/yoga_health.png);
-75: =======
-76: background-image: url(../img/family_one.jpg);
-77: height: 40rem;
-78: >>>>>>> e9501a6a55bea5e5ea6fe21b8a6e55dee381b581
-79: background-size: cover;
+.jumbotron {
+  margin-bottom: 0 !important;
+  background-color: none; }
 
-Backtrace:
-scss/main_white_styles.scss:74
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1208:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1203:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:677:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:697:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:686:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:678:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:670:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:696:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:137:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:41:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/engine.rb:414:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...oga_health.png)\": expected \"{\", was \";\"\A         on line 74 of scss/main_white_styles.scss\A \A 69: }\A 70: \A 71: .blue_header_style {\A 72: \A 73: <<<<<<< HEAD\A 74: background-image: url(../img/yoga_health.png);\A 75: =======\A 76: background-image: url(../img/family_one.jpg);\A 77: height: 40rem;\A 78: >>>>>>> e9501a6a55bea5e5ea6fe21b8a6e55dee381b581\A 79: background-size: cover;"; }
+.jumbotron-fluid {
+  margin-bottom: 0 !important;
+  background-color: none; }
+
+.small_style_margin {
+  margin-top: 3rem; }
+
+.active_family {
+  background-image: url(../img/active_senor.png);
+  background-size: cover;
+  height: inherit;
+  width: auto; }
+
+.Blue_nav_style {
+  font-family: 'Playfair Display', serif; }
+
+.slider_space_style {
+  margin-top: 5rem; }
+
+.slider_img3 {
+  background-image: url(../img/active_senor.png);
+  background-size: cover;
+  height: 30rem;
+  width: auto; }
+
+.live_life_body {
+  margin-top: 7rem;
+  font-size: 7rem; }
+
+.blue_header_style {
+  background-image: url(../img/family_one.jpg);
+  height: 40rem;
+  background-size: cover; }
+  .blue_header_style .top_spacing_banner_body {
+    margin-top: 7rem; }
+
+.iphone_img_style {
+  background-image: url(../img/iphone.png);
+  background-size: cover;
+  height: 45rem;
+  width: auto; }
+
+.header_minor_space {
+  margin-bottom: 3rem;
+  font-family: 'Playfair Display', serif; }
+
+.section_spacing {
+  height: 12rem; }
+
+.first_section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  height: inherit; }
+
+.first_section_nut {
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  height: inherit; }
+
+.sub_header_spacing {
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+.banner_flag {
+  background-color: rgba(58, 144, 224, 0.8);
+  height: 25rem; }
+  .banner_flag .blue_hero_text_style {
+    font-family: 'Playfair Display', serif; }
+  .banner_flag .bottom_spacing {
+    padding-bottom: 7rem; }
+  .banner_flag .top_spacing {
+    padding-top: 7rem; }
+
+.img_class_name {
+  background-image: url(../img/healthy_food.jpg);
+  background-size: cover;
+  height: 25rem;
+  width: auto; }
+
+.img_class_paper {
+  background-image: url(../img/green_smoothy.jpg);
+  background-size: cover;
+  height: 25rem;
+  width: auto; }
+
+.img_class_name_blog_yoga {
+  background-image: url(../img/yoga_matt.jpg);
+  background-size: cover;
+  height: 25rem;
+  width: 100%; }
+
+.img_class_name_volunteer {
+  background-image: url(../img/community_selfie.jpg);
+  background-size: cover;
+  height: 25rem;
+  width: 100%; }
+
+.footer_height_style {
+  padding-top: 10rem;
+  padding-bottom: 10rem; }
+
+.footer_styles {
+  margin-top: 5rem; }
+  .footer_styles .social_space_style {
+    margin-bottom: 5rem; }
+  .footer_styles .footer_second_level {
+    width: 100%; }
+
+.footer_styles_list {
+  margin-top: 0.9rem;
+  list-style: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000000; }
+
+.footer_2nd_styles .footer_styles_list {
+  margin-top: 0.9rem;
+  list-style: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #FFFFFF; }
+
+/*# sourceMappingURL=main_white_styles.css.map */
