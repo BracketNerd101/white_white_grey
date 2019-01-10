@@ -109,6 +109,8 @@ body {
 
 .footer_styles {
   margin-top: 5rem; }
+  .footer_styles .social_space_style {
+    margin-bottom: 5rem; }
   .footer_styles .footer_second_level {
     width: 100%; }
 
