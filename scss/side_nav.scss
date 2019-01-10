@@ -24,6 +24,8 @@ transition: 0.5s;
 a {
 
     font-size: 2rem;
+    margin-top: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
   }
 }
 
@@ -78,7 +80,7 @@ a {
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  transition: margin-left .5s;
+  transition: margin-left 0.8s;
   padding: 20px;
 }
 
